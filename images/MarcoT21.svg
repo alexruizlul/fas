@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="339" height="235" viewBox="0 0 339 235">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectángulo_41" d="M0 0H339V235H0z" class="prefix__cls-1" data-name="Rectángulo 41" transform="translate(962 315)"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{fill:#fff}.prefix__cls-5,.prefix__cls-7{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.376px}.prefix__cls-5{stroke:#b0c3fa}.prefix__cls-7{stroke:#1b3c87}.prefix__cls-8{fill:#d6dfff}
+        </style>
+    </defs>
+    <g id="prefix__Enmascarar_grupo_21" data-name="Enmascarar grupo 21" transform="translate(-962 -315)">
+        <g id="prefix__Layer_2" data-name="Layer 2" transform="translate(1037.279 315.012)">
+            <g id="prefix__vector">
+                <path id="prefix__Trazado_1250" d="M161.946 49.753c15.109 9.7 21.979 32.213 23.783 53.947s-1.413 42.691-9.209 65.5-20.128 47.512-39.531 55.947c-19.446 8.478-45.955.682-65.887-12.185-19.875-12.864-33.228-30.846-45.7-50.341S1.275 122.073.106 98.387C-1.111 74.705 8.147 48.349 26.52 39.226c18.419-9.111 45.955-.927 71.441 1.56s48.879-.731 63.985 8.967z" data-name="Trazado 1250" style="fill:#f0f0f0"/>
+                <path id="prefix__Trazado_1251" d="M115.117 234.988c8.1-20.39 23.887-30.846 24.75-55.881.029-1.853-30.506-21.547-44.752-21.216s-32.892 77.1-32.892 77.1z" class="prefix__cls-1" data-name="Trazado 1251"/>
+                <path id="prefix__Rectángulo_58" d="M0 0H91.371V162.815H0z" data-name="Rectángulo 58" transform="translate(52.945 14.853)" style="fill:#eaefff"/>
+                <path id="prefix__Rectángulo_59" d="M0 0H73.16V28.327H0z" class="prefix__cls-1" data-name="Rectángulo 59" transform="translate(62.054 86.139)"/>
+                <path id="prefix__Línea_18" d="M0 0L33.439 0" class="prefix__cls-5" data-name="Línea 18" transform="translate(91.84 94.304)"/>
+                <path id="prefix__Línea_19" d="M0 0L13.584 0" class="prefix__cls-5" data-name="Línea 19" transform="translate(91.84 103.07)"/>
+                <circle id="prefix__Elipse_17" cx="7.727" cy="7.727" r="7.727" data-name="Elipse 17" transform="translate(68.897 92.574)" style="fill:#ecc953"/>
+                <path id="prefix__Trazado_1252" d="M126.4 211.11c6.081-9.434 11.532-19.017 12.03-33.441" class="prefix__cls-7" data-name="Trazado 1252"/>
+                <path id="prefix__Trazado_1253" d="M113.678 233.549a82.741 82.741 0 0 1 6.179-12.205" class="prefix__cls-7" data-name="Trazado 1253"/>
+                <path id="prefix__Rectángulo_60" d="M0 0H73.16V28.327H0z" class="prefix__cls-1" data-name="Rectángulo 60" transform="translate(62.054 44.55)"/>
+                <path id="prefix__Rectángulo_61" d="M0 0H91.371V16.767H0z" class="prefix__cls-8" data-name="Rectángulo 61" transform="translate(52.945 14.853)"/>
+                <path id="prefix__Rectángulo_62" d="M0 0H91.371V16.767H0z" class="prefix__cls-8" data-name="Rectángulo 62" transform="translate(52.945 160.899)"/>
+                <path id="prefix__Línea_20" d="M0 0L13.584 0" class="prefix__cls-7" data-name="Línea 20" transform="translate(91.84 23.236)"/>
+                <circle id="prefix__Elipse_18" cx="4.026" cy="4.026" r="4.026" data-name="Elipse 18" transform="translate(94.606 165.256)" style="fill:#b0c3fa"/>
+                <path id="prefix__Trazado_1254" d="M39.563 234.988c4.317-16.4 5.18-79.143 0-93.532 7.483-5.468 38.276-28.779 42.881-32.52 4.317 2.878 2.3 26.765-11.8 37.125v7.195c7.483 0 18.706 25.038 12.375 51.515-3.658 11.6 7.67 30.218 7.67 30.218z" class="prefix__cls-1" data-name="Trazado 1254"/>
+                <path id="prefix__Trazado_1255" d="M76.325 157.857c5.491 9.005 9.7 26.886 5.255 45.471" class="prefix__cls-7" data-name="Trazado 1255"/>
+                <path id="prefix__Trazado_1256" d="M76.625 110.921c2.055-1.586 3.6-2.789 4.38-3.425 4.317 2.878 2.3 26.765-11.8 37.125v5.235" class="prefix__cls-7" data-name="Trazado 1256"/>
+                <path id="prefix__Trazado_1257" d="M42.449 136.811c6.49-4.841 17.075-12.836 25.613-19.328" class="prefix__cls-7" data-name="Trazado 1257"/>
+                <path id="prefix__Trazado_1258" d="M38.124 233.549c3.4-12.925 4.656-54.606 2.5-78.748" class="prefix__cls-7" data-name="Trazado 1258"/>
+                <path id="prefix__Línea_21" d="M0 0L6.334 0" class="prefix__cls-5" data-name="Línea 21" transform="translate(118.944 52.715)"/>
+                <path id="prefix__Línea_22" d="M0 0L20.77 0" class="prefix__cls-5" data-name="Línea 22" transform="translate(91.84 52.715)"/>
+                <path id="prefix__Línea_23" d="M0 0L13.584 0" class="prefix__cls-5" data-name="Línea 23" transform="translate(91.84 61.481)"/>
+                <circle id="prefix__Elipse_19" cx="7.727" cy="7.727" r="7.727" data-name="Elipse 19" transform="translate(68.897 50.985)" style="fill:#fb5d64"/>
+                <path id="prefix__Trazado_1259" d="M153.888 135.6c21.248 14.2-13.152 41.154-22.338 48.6-2.377-1.7-4.027-24.824 22.338-48.6z" class="prefix__cls-1" data-name="Trazado 1259"/>
+                <path id="prefix__Trazado_1260" d="M137.613 176.549c-3.048 2.639-5.741 4.786-7.5 6.216-3.307-1.793-2.167-14.864 7.195-29.432" class="prefix__cls-7" data-name="Trazado 1260"/>
+                <path id="prefix__Trazado_1261" d="M152.449 134.166c11.63 7.77 6.588 19.363-1.865 29.487" class="prefix__cls-7" data-name="Trazado 1261"/>
+                <circle id="prefix__Elipse_20" cx="3.81" cy="3.81" r="3.81" class="prefix__cls-5" data-name="Elipse 20" transform="translate(159.264 27.792)"/>
+                <path id="prefix__Trazado_1262" d="M150.961 9.615v-.36a8.568 8.568 0 1 1 3.776 7.1" class="prefix__cls-5" data-name="Trazado 1262"/>
+                <path id="prefix__Trazado_1263" d="M179.815 21.118a6.044 6.044 0 1 1 6.619-2.222" class="prefix__cls-5" data-name="Trazado 1263"/>
+                <path id="prefix__Trazado_1264" d="M146.334 122.749c-22.448 13.526-25.038 42.881-22.16 44.608 8.058-3.166 37.989-36.262 37.989-51.515 0-3.453-10.009-9.986-12.309-10.922-1.289-.5.083-2.625-4.507 1.62.028 4.217-.3 12.088.987 16.209z" class="prefix__cls-1" data-name="Trazado 1264"/>
+                <path id="prefix__Trazado_1265" d="M148.414 103.481c2.3.935 12.309 7.468 12.309 10.922 0 3.741-1.81 8.582-4.659 13.779" class="prefix__cls-7" data-name="Trazado 1265"/>
+                <path id="prefix__Trazado_1266" d="M144.811 144.615c-8.5 10.611-18.039 19.717-22.077 21.3-2.878-1.727-.288-31.082 22.16-44.608" class="prefix__cls-7" data-name="Trazado 1266"/>
+                <path id="prefix__Trazado_1267" d="M145.758 86.2c4.6-3.454 20.721-18.994 22.448-21.3 3.741-1.151 10.361 16.98-22.448 43.457" class="prefix__cls-1" data-name="Trazado 1267"/>
+                <path id="prefix__Trazado_1268" d="M157.37 94.724a112.817 112.817 0 0 1-13.051 12.2" class="prefix__cls-7" data-name="Trazado 1268"/>
+                <path id="prefix__Trazado_1269" d="M144.319 84.76c4.6-3.453 20.721-18.994 22.448-21.3 2.648-.814 6.74 8.038-2.743 22.675" class="prefix__cls-7" data-name="Trazado 1269"/>
+            </g>
+        </g>
+    </g>
+</svg>

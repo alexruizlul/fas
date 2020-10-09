@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="339" height="235" viewBox="0 0 339 235">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectángulo_42" d="M0 0H339V235H0z" class="prefix__cls-1" data-name="Rectángulo 42" transform="translate(266 6412)"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{fill:#fff}.prefix__cls-5{fill:#eaf0ff}.prefix__cls-6{fill:#fb5d64}.prefix__cls-7{fill:#f4f7ff}.prefix__cls-14,.prefix__cls-8{fill:none;stroke-linecap:round;stroke-linejoin:round}.prefix__cls-8{stroke:#eaf0ff;stroke-width:.992px}.prefix__cls-11{fill:#b2c3fb}.prefix__cls-13{fill:#eecb55}.prefix__cls-14{stroke:#1b3c87;stroke-width:1.221px}.prefix__cls-15{fill:#46dbc9}
+        </style>
+    </defs>
+    <g id="prefix__Enmascarar_grupo_12" data-name="Enmascarar grupo 12" transform="translate(-266 -6412)">
+        <g id="prefix__Layer_2" data-name="Layer 2" transform="translate(310.595 6412)">
+            <g id="prefix__Layer_1" data-name="Layer 1">
+                <path id="prefix__Trazado_767" d="M225.841 19.815c16.454 20.431 11.429 58.473 8.727 93.813s-2.928 67.984-19.382 90.164c-16.51 22.2-49.141 33.848-78.626 30.7-29.485-3.2-55.767-21.258-81.709-43.455s-51.579-48.46-50.809-73.988S31.982 66.8 57.934 46.376 108.62 9.822 139.974 3.2 209.4-.612 225.841 19.815" data-name="Trazado 767" style="fill:#f7f7f7"/>
+                <path id="prefix__Rectángulo_43" d="M0 0H198.305V143.838H0z" data-name="Rectángulo 43" transform="translate(25.786 48.122)" style="fill:#d7e0ff"/>
+                <path id="prefix__Rectángulo_44" d="M0 0H198.305V15.773H0z" class="prefix__cls-5" data-name="Rectángulo 44" transform="translate(25.786 48.122)"/>
+                <path id="prefix__Trazado_768" d="M188.46 56.009a3.923 3.923 0 1 1-3.92-3.92 3.923 3.923 0 0 1 3.92 3.92" class="prefix__cls-6" data-name="Trazado 768"/>
+                <path id="prefix__Trazado_769" d="M203.532 56.009a3.923 3.923 0 1 1-3.923-3.92 3.923 3.923 0 0 1 3.923 3.92" class="prefix__cls-6" data-name="Trazado 769"/>
+                <path id="prefix__Trazado_770" d="M218.6 56.009a3.919 3.919 0 1 1 .013 0" class="prefix__cls-6" data-name="Trazado 770"/>
+                <path id="prefix__Trazado_771" d="M199.423 82.83c-2.064 0-2.61 4.1-6.285 4.1h-21.671v21.784h34.658V82.83z" class="prefix__cls-7" data-name="Trazado 771"/>
+                <path id="prefix__Trazado_772" d="M155.207 82.83c-2.064 0-2.61 4.1-6.285 4.1h-21.671v21.784h34.659V82.83z" class="prefix__cls-7" data-name="Trazado 772"/>
+                <path id="prefix__Trazado_773" d="M104.707 86.926H83.032v21.784h34.662V82.83h-6.705c-2.061 0-2.607 4.1-6.285 4.1" class="prefix__cls-7" data-name="Trazado 773"/>
+                <path id="prefix__Trazado_774" d="M161.473 127.645l-8.343 30.378 27.427-5.316z" class="prefix__cls-8" data-name="Trazado 774"/>
+                <circle id="prefix__Elipse_6" cx="10.582" cy="10.582" r="10.582" class="prefix__cls-8" data-name="Elipse 6" transform="translate(115.445 182.823)"/>
+                <circle id="prefix__Elipse_7" cx="5.627" cy="5.627" r="5.627" class="prefix__cls-8" data-name="Elipse 7" transform="translate(134.135 170.643)"/>
+                <path id="prefix__Trazado_775" d="M76.747 35.446l31.153 6.616-39.648 29.772z" data-name="Trazado 775" style="stroke:#b2c3fb;stroke-width:.992px;fill:none;stroke-linecap:round;stroke-linejoin:round"/>
+                <path id="prefix__Rectángulo_45" d="M0 0H56.611V83.955H0z" class="prefix__cls-5" data-name="Rectángulo 45" transform="translate(193.138 122.355)"/>
+                <path id="prefix__Trazado_776" d="M239.093 148.2a17.652 17.652 0 1 1-17.651-17.652 17.652 17.652 0 0 1 17.651 17.652" data-name="Trazado 776" style="fill:#cbd7ff"/>
+                <path id="prefix__Rectángulo_46" d="M0 0H43.991V9.669H0z" class="prefix__cls-11" data-name="Rectángulo 46" transform="translate(199.449 173.911)"/>
+                <path id="prefix__Rectángulo_47" d="M0 0H43.991V9.669H0z" class="prefix__cls-11" data-name="Rectángulo 47" transform="translate(199.449 190.432)"/>
+                <path id="prefix__Trazado_777" d="M12.571 184.189c-.086 1.9-1.489 15.515-3.2 20.656 5.739-.758 37.017-6.947 46.425-12.385-.748-5.088-40.474-8.8-43.223-8.27" data-name="Trazado 777" style="fill:#3c3744"/>
+                <path id="prefix__Trazado_778" d="M31.215 82.371a8.5 8.5 0 1 1-8.5-8.5 8.5 8.5 0 0 1 8.5 8.5" class="prefix__cls-13" data-name="Trazado 778"/>
+                <path id="prefix__Trazado_779" d="M57.8 97.111c.605-.284 1.485-2.2 1.485-5.038 0-7.056-5.359-10.364-13.93-10.364-5.984 0-13.037 2.236-17.533 10.632-3.358 6.239-4.724 20.014-7.526 24.969-1.773 3.133-5.534 9.478-8.422 15.445-1.085 1.515-6.54 13.073 1.79 16.871s47.011 2.236 48.04.605-4.754-13.279-6.656-15.637-4.631-5.359-3.076-16.96.149-18.439 1.482-18.992 2.951-.586 4.347-1.532" class="prefix__cls-13" data-name="Trazado 779"/>
+                <path id="prefix__Trazado_780" d="M36.3 105.229a3.609 3.609 0 1 1-3.609-3.609 3.609 3.609 0 0 1 3.609 3.609" class="prefix__cls-1" data-name="Trazado 780"/>
+                <path id="prefix__Trazado_781" d="M11.2 182.823c-.086 1.9-1.489 15.515-3.2 20.656" class="prefix__cls-14" data-name="Trazado 781"/>
+                <path id="prefix__Trazado_782" d="M91.163 126.579c2.8-4.426 1.985-9.531.784-7.959-.4.526-5.624 11.108-6.666 12.184a3.37 3.37 0 0 0-1.727.354c-1.059.86-.662 6.887-1.059 7.417S67 162.287 66.333 163.014c-.066.265-1.985-8.674-2.57-10.255a33.546 33.546 0 0 1-6.394 3.738c.129 1.022.764 13.659 0 17.764.642 1.27 4.519 5.121 6.166 5.121a16.643 16.643 0 0 0 7.433-1.833c3.7-2.541 17.986-35.347 19.031-36.028 2.087-1.37 5.564-6.093 6.05-9.084 0-1.323 1.085-2.187-4.9-5.868" class="prefix__cls-1" data-name="Trazado 782"/>
+                <path id="prefix__Trazado_783" d="M49 131.1c9.319-3.043 17.8 18.115 17.136 19.822s-10.07 6.808-12.121 6.537S45.377 132.279 49 131.1" class="prefix__cls-15" data-name="Trazado 783"/>
+                <path id="prefix__Trazado_784" d="M47.636 129.739c9.319-3.043 17.8 18.118 17.136 19.822S54.7 156.369 52.651 156.1 44 130.92 47.636 129.739z" class="prefix__cls-14" data-name="Trazado 784"/>
+                <path id="prefix__Trazado_785" d="M37.778 125.815c26.375.619 19.713 59.525 18.5 61.629-1.631 2.832-35.4 5.4-43.448-2.5-1.862-1.826-.093-59.717 24.946-59.132" class="prefix__cls-15" data-name="Trazado 785"/>
+                <path id="prefix__Trazado_786" d="M33.355 124.681a15.134 15.134 0 0 1 3.057-.228c8.1.189 13.09 5.882 16.074 13.742" class="prefix__cls-14" data-name="Trazado 786"/>
+                <path id="prefix__Trazado_787" d="M56.369 159.508c.715 13.355-.916 25.631-1.456 26.57-1.631 2.832-35.4 5.4-43.448-2.5-1.694-1.654-.384-49.733 18.727-57.947" class="prefix__cls-14" data-name="Trazado 787"/>
+                <path id="prefix__Trazado_788" d="M55.575 90.594c.053 3.275-22.776 6.375-22.9 11.026s-.2 7.337-.2 7.337c.817 4.337-.953 19.67-1.452 21.271 1.915 1.783 11.522 1.654 12.571.576a69.115 69.115 0 0 1 .159-9.263 9.289 9.289 0 0 0 1.217.083c7.347 0 13.305-8.67 13.305-19.369 0-5.591-.093-7.069-2.689-11.671" class="prefix__cls-1" data-name="Trazado 788"/>
+                <path id="prefix__Trazado_789" d="M24.165 127.6c10.212 3.172 4.1 27.91 2.147 28.886S5.233 152 4.843 149.855s6.312-26.3 19.322-22.25" class="prefix__cls-15" data-name="Trazado 789"/>
+                <path id="prefix__Trazado_790" d="M28.542 138.988c-.083 7.519-2.5 15.588-3.6 16.137-1.952.976-21.079-4.489-21.469-6.636a21.063 21.063 0 0 1 1.472-6.315" class="prefix__cls-14" data-name="Trazado 790"/>
+                <path id="prefix__Trazado_791" d="M10.328 131.621c3.129-4.148 7.3-6.99 12.471-5.382a6.219 6.219 0 0 1 1.2.513" class="prefix__cls-14" data-name="Trazado 791"/>
+                <path id="prefix__Trazado_792" d="M72.228 150.788c4.2-6.391 8.7-13.275 8.912-13.563.4-.529 0-6.557 1.059-7.417s7.807 0 7.807.767-2.756 3.308-3.43 3.5" class="prefix__cls-14" data-name="Trazado 792"/>
+                <path id="prefix__Trazado_793" d="M62.479 151.618c.586 1.585 2.431 10.315 2.5 10.05.169-.189 1.277-1.833 2.842-4.188" class="prefix__cls-14" data-name="Trazado 793"/>
+                <path id="prefix__Trazado_794" d="M89.8 125.213c2.8-4.426 1.985-9.531.784-7.959-.4.526-5.624 11.108-6.666 12.184" class="prefix__cls-14" data-name="Trazado 794"/>
+                <path id="prefix__Trazado_795" d="M90.73 126.368c-.374.708-2.087 3.563-2.087 3.563" class="prefix__cls-14" data-name="Trazado 795"/>
+                <path id="prefix__Trazado_796" d="M92.563 127.5a34.429 34.429 0 0 1-2.557 4.744" class="prefix__cls-14" data-name="Trazado 796"/>
+                <path id="prefix__Trazado_797" d="M94.207 128.726a44.405 44.405 0 0 1-2.924 5.346" class="prefix__cls-14" data-name="Trazado 797"/>
+                <path id="prefix__Trazado_798" d="M89.777 139.23a8.055 8.055 0 0 1-1.135.936c-1.045.685-15.33 33.487-19.031 36.031a16.7 16.7 0 0 1-7.433 1.829c-1.654 0-5.17-3.308-5.809-4.568" class="prefix__cls-14" data-name="Trazado 798"/>
+                <path id="prefix__Trazado_799" d="M94.693 131.082a12.752 12.752 0 0 1-1.849 4.277" class="prefix__cls-14" data-name="Trazado 799"/>
+                <path id="prefix__Trazado_800" d="M53.921 113.152c-2.441 4.343-6.15 7.116-10.3 7.116a10.52 10.52 0 0 1-7.2-3.08" class="prefix__cls-14" data-name="Trazado 800"/>
+                <path id="prefix__Trazado_801" d="M54.216 89.228A25.472 25.472 0 0 1 56.9 100.9a27.457 27.457 0 0 1-.662 6.07" class="prefix__cls-14" data-name="Trazado 801"/>
+                <path id="prefix__Trazado_802" d="M33.355 106.82a3.6 3.6 0 1 1-.642-6.285" class="prefix__cls-14" data-name="Trazado 802"/>
+                <path id="prefix__Trazado_803" d="M44.351 99.794c0 .764-.331 1.386-.754 1.386s-.751-.622-.751-1.386.331-1.389.751-1.389.754.622.754 1.389" data-name="Trazado 803" style="fill:#1b3c87"/>
+                <path id="prefix__Trazado_804" d="M51.222 106.275a3.53 3.53 0 0 0 .463.695" class="prefix__cls-14" data-name="Trazado 804"/>
+                <path id="prefix__Trazado_805" d="M50.484 102.007a9.507 9.507 0 0 0 .275 3.024" class="prefix__cls-14" data-name="Trazado 805"/>
+                <path id="prefix__Trazado_806" d="M40.12 109.014a3.983 3.983 0 0 0 2.723 2.723" class="prefix__cls-14" data-name="Trazado 806"/>
+                <path id="prefix__Trazado_807" d="M42.224 129.438a69.115 69.115 0 0 1 .159-9.263" class="prefix__cls-14" data-name="Trazado 807"/>
+                <path id="prefix__Trazado_808" d="M30.58 122.355a56.407 56.407 0 0 1-.92 6.507c.761.708 2.729 1.112 4.9 1.277" class="prefix__cls-14" data-name="Trazado 808"/>
+                <path id="prefix__Trazado_809" d="M31.112 107.595a41.586 41.586 0 0 1 0 8.578" class="prefix__cls-14" data-name="Trazado 809"/>
+                <path id="prefix__Trazado_810" d="M15.055 86.721A8.5 8.5 0 0 1 18.783 72.9" class="prefix__cls-14" data-name="Trazado 810"/>
+                <path id="prefix__Trazado_811" d="M29.18 77.7a8.508 8.508 0 0 1-9.855 11.578" class="prefix__cls-14" data-name="Trazado 811"/>
+                <path id="prefix__Trazado_812" d="M51.007 81.315c4.367 1.456 6.907 4.542 6.907 9.392 0 2.838-.88 4.754-1.489 5.038" class="prefix__cls-14" data-name="Trazado 812"/>
+                <path id="prefix__Trazado_813" d="M21.347 108.762c1.5-6.031 2.848-13.613 5.1-17.8 4.218-7.87 10.678-10.324 16.4-10.586" class="prefix__cls-14" data-name="Trazado 813"/>
+                <path id="prefix__Trazado_814" d="M10.5 131.389c1.985-4.105 4.386-8.393 6.285-11.684" class="prefix__cls-14" data-name="Trazado 814"/>
+                <path id="prefix__Trazado_815" d="M50.385 126.752a9.877 9.877 0 0 0 .662 3" class="prefix__cls-14" data-name="Trazado 815"/>
+                <path id="prefix__Trazado_816" d="M50.458 117.5a30.209 30.209 0 0 0-.275 6.229" class="prefix__cls-14" data-name="Trazado 816"/>
+                <path id="prefix__Trazado_817" d="M55.106 87.071c0 6.858-23.792 7.476-23.792 13.183" class="prefix__cls-14" data-name="Trazado 817"/>
+                <path id="prefix__Trazado_818" d="M67.051 187.362c2.292.384 3.6-3.391 5-3.189 1.019.146 5.892.771 6.107 1.108s-.582 3.851-.582 3.851" class="prefix__cls-5" data-name="Trazado 818"/>
+                <path id="prefix__Rectángulo_48" d="M0 0H21.827V35.151H0z" class="prefix__cls-5" data-name="Rectángulo 48" transform="rotate(-80.45 140.72 79.185)"/>
+                <path id="prefix__Trazado_819" d="M74.213 199.615l-1.628 9.673-20.1-3.381" class="prefix__cls-14" data-name="Trazado 819"/>
+                <path id="prefix__Trazado_820" d="M76.208 187.765l-.681 4.046" class="prefix__cls-14" data-name="Trazado 820"/>
+                <path id="prefix__Trazado_821" d="M41.079 203.988l-3.159-.543 3.639-21.526 29.518 4.962" class="prefix__cls-14" data-name="Trazado 821"/>
+                <path id="prefix__Trazado_822" d="M65.685 186c2.292.384 3.6-3.391 5-3.189 1.019.146 5.892.771 6.107 1.108s-.582 3.851-.582 3.851" class="prefix__cls-14" data-name="Trazado 822"/>
+                <path id="prefix__Rectángulo_49" d="M0 0H9.319V5.108H0z" class="prefix__cls-6" data-name="Rectángulo 49" transform="rotate(-80.45 150.472 60.666)"/>
+                <path id="prefix__Trazado_823" d="M44.53 187.765l19.792 3.328" class="prefix__cls-14" data-name="Trazado 823"/>
+                <path id="prefix__Trazado_824" d="M60.627 194.795l2.944.5" class="prefix__cls-14" data-name="Trazado 824"/>
+                <path id="prefix__Trazado_825" d="M43.782 191.963l11.37 1.912" class="prefix__cls-14" data-name="Trazado 825"/>
+                <path id="prefix__Trazado_826" d="M66.022 188.695c-.516-3.97-1.71-8.184-10.149-7.82-1.141-.916-23.305-7.2-36.67-10.668 1.555-3.212 3.368-13 3.46-13.894-.992-.185-15.637-4.691-15.637-4.691S.9 177.226 2.233 179.366c8.194 5.22 38.933 8.981 52.81 8.005.973.764.84 1.244 2.22 1.439s8.76-.116 8.76-.116" class="prefix__cls-1" data-name="Trazado 826"/>
+                <path id="prefix__Trazado_827" d="M39.578 174.781c7.9 2.263 14.327 4.238 14.926 4.727 8.445-.364 9.636 3.834 10.152 7.82" class="prefix__cls-14" data-name="Trazado 827"/>
+                <path id="prefix__Trazado_828" d="M21.3 154.959c-.1.88-1.909 10.668-3.46 13.894 4.651 1.2 10.371 2.746 15.9 4.3" class="prefix__cls-14" data-name="Trazado 828"/>
+                <path id="prefix__Trazado_829" d="M57.348 183.6a12.008 12.008 0 0 1 .414 4.185" class="prefix__cls-14" data-name="Trazado 829"/>
+                <path id="prefix__Trazado_830" d="M59.9 183.6a11.853 11.853 0 0 1 .414 4.185" class="prefix__cls-14" data-name="Trazado 830"/>
+                <path id="prefix__Trazado_831" d="M61.95 183.6a11.935 11.935 0 0 1 .41 4.185" class="prefix__cls-14" data-name="Trazado 831"/>
+                <path id="prefix__Trazado_832" d="M1.207 171.463C.629 175.029.384 177.7.877 178c11.456 7.278 46.078 8.416 52.81 8.006" class="prefix__cls-14" data-name="Trazado 832"/>
+                <path id="prefix__Trazado_833" d="M5.66 150.268c-.126.443-1.307 5.405-2.494 11.019" class="prefix__cls-14" data-name="Trazado 833"/>
+            </g>
+        </g>
+    </g>
+</svg>

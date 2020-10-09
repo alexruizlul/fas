@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fábrica Académica de Software</title>
+  <link rel="icon" type="imagenes/png" href="images/logoFASBlanco.png">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/carrusel.css">
+  <link rel="stylesheet" href="css/prueba.css">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    </style>
+  
+</head>
+<body class="font-body bg-gray-100">
+  
+
+  <header x-data="{ open: false }" class="fixed z-10 w-full bg-azulFuerte text-white h-24 px-10 md:px-20 xl:px-40 pt-2">
+    <div class="px-2 bg-azulFuerte text-white flex justify-between items-center">
+        <div class="flex">
+          <a href="#inicio">
+            <img class="h-20 w-16 py-2 mr-4" src="images/logoFASBlanco.png" alt="">
+          </a>
+            <div class="hidden flex lg:visible lg:flex items-center">
+
+                <figure>
+                  <img class="h-16 w-32 mx-2" src="images/logoTecNM.png" alt="TecNM">
+                </figure>
+                <!--<figure>
+                  <img class="h-20 w-32 mx-2 md:mx-4" src="images/logoSEP.svg" alt="SEP">
+                </figure>-->
+                <figure>
+                  <img class="h-16 w-16 mx-2 md:mx-4" src="images/logoITM.png" alt="ITM">
+                </figure>
+            
+                
+            </div>
+        </div>
+        
+        <div class="text-3xl lg:hidden" @click="open = true">&equiv;</div>
+        <ol class="hidden flex lg:visible lg:flex">
+            <li class="mx-4">
+              <a class="font-title tracking-tight font-bold hover:text-yellow-400" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="mx-4">
+              <a class="font-title tracking-tight font-bold hover:text-yellow-400" href="#marco">Marco de Trabajo</a>
+            </li>
+            <li class="mx-4">
+              <a class="font-title tracking-tight font-bold hover:text-yellow-400" href="#exito">Casos de éxito</a>
+            </li>
+            <li class="mx-4">
+              <a class="font-title tracking-tight font-bold hover:text-yellow-400" href="#contacto">Contacto</a>
+            </li>
+        </ol>
+    </div>
+    <div x-show="open" @click.away="open = false" class="bg-azulFuerte">
+        <ol class="flex-wrap lg:hidden text-center">
+            <li class="mx-4">
+              <a class="font-title font-bold tracking-tight hover:text-yellow-400" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="mx-4">
+              <a class="font-title font-bold tracking-tight hover:text-yellow-400" href="#marco">Marco de Trabajo</a>
+            </li>
+            <li class="mx-4">
+              <a class="font-title font-bold tracking-tight hover:text-yellow-400" href="#exito">Casos de éxito</a>
+            </li>
+            <li class="mx-4">
+              <a class="font-title font-bold tracking-tight hover:text-yellow-400" href="#contacto">Contacto</a>
+            </li>
+        </ol>
+    </div>
+    </header>
+
+  <section id="inicio">
+    <div class="mb-32 text-vino h-140 md:h-184 bg-no-repeat bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+      <h1 class="h1-style md:pt-80 md:text-4xl xl:px-40">  
+      Propiciando un entorno laboral universitario
+      <div>
+        <a class="font-title" href="#contacto">
+        <button type="text" class="tracking-tight mt-6 text-black rounded-full shadow-2xl py-1 px-2 md:px-8 bg-yellow-400 inline-block hover:shadow-none hover:bg-azulFuerte hover:text-white">
+          Contáctanos
+        </button>
+      </a>
+      </div>
+      </h1>
+      
+    </div>
+  </section>
+
+  <!-- QUIENES SOMOS -->
+  <section id="nosotros" class="px-20 md:h-140 xl:px-40">
+      <article class="md:flex md:items-center md:align-middle" data-transition="entrance" style="transform: translateY(50px)">
+        <div class="md:w-3/4">
+        <h2 class="h2-style text-center md:text-left md:w-3/4 text-azulFuerte">
+            Uniendo el mundo laboral con el aula
+        </h2>
+        <p class="p-style md:text-left md:w-3/4 md:text-xl">
+          Buscamos solucionar problemas de empresas mediante el desarrollo de software por parte de alumnos inscritos cursando 
+          materias de la línea de Ingeniería de Software, respaldados por profesores experimentados en el tema.
+        </p>
+        </div>
+        <div class="form-dibujo">
+        <figure>
+            <img src="images/dibujoUno.svg" alt="dibujoUno">
+        </figure>
+      </div>
+    </article>
+  </section>
+
+  <section class="mx-10 xl:px-40">
+
+    <!-- Artículo de Misión -->
+    <article class="md:flex md:items-center md:align-middle my-8">
+      <div class="form-dibujo mx-12">
+      <figure>
+        <img class="w-40 h-40" src="images/misionAzul.svg" alt="Misión">
+      </figure>
+    </div>
+    <div class="md:w-3/4">
+      <h2 class="h2-style text-center md:text-left md:w-3/4 text-azulFuerte">
+          Misión
+      </h2>
+      <p class="p-style md:text-left md:text-xl">
+        La misión de La FAS es expandir las oportunidades de los estudiantes del Instituto Tecnológico de Morelia, 
+        asegurándose que adquieran las experiencias y habilidades que los capacitarán para alcanzar todo su potencial.
+      </p>
+      </div>
+    </article>
+
+    <!-- Artículo de Visión -->
+    <article class="md:flex md:items-center md:align-middle my-8">
+      <div class="form-dibujo mx-12">
+      <figure>
+        <img class="w-40 h-40" src="images/visionAzul.svg" alt="Visión">
+      </figure>
+    </div>
+    <div class="md:w-3/4">
+      <h2 class="h2-style text-center md:text-left md:w-3/4 text-azulFuerte">
+          Visión
+      </h2>
+      <p class="p-style md:text-left md:text-xl">
+        Ser un aliado estratégico para los egresados del ITM relacionándolos con las empresas y organizaciones públicas y 
+        privadas, así como un referente en el sector educativo a nivel superior en el área de las TICs en desarrollar soluciones innovadoras.
+      </p>
+      </div>
+    </article>
+
+    <!-- Artículo de Valores -->
+    <article class="md:flex md:items-center md:align-middle my-8">
+      <div class="form-dibujo mx-12">
+      <figure>
+        <img class="w-40 h-40" src="images/valoresAzul.svg" alt="Valores">
+      </figure>
+    </div>
+    <div class="md:w-3/4">
+      <h2 class="h2-style text-center md:text-left md:w-3/4 text-azulFuerte">
+          Valores
+      </h2>
+      <p class="p-style md:text-left md:text-xl">
+        Respeto, liderazgo, confianza, trabajo en equipo, ganas de aprender. Estos valores nos caracterizan e impulsan  
+        a enfrentar cualquier desafío y entregar un producto completo que satisfaga las necesidades de nuestros clientes.
+      </p>
+      </div>
+    </article>
+
+    </section>
+
+    <!-- Sección de "Habilidades/Perfiles"-->
+    <section class="px-20 mt-32 mb-10 md:h-140 xl:px-40">
+      <article class="md:flex md:items-center md:align-middle">
+        <div class="md:w-3/4">
+        <h2 class="h2-style text-center md:text-left md:w-3/4 text-azulFuerte">
+            Nueva generación de profesionales
+        </h2>
+        <p class="p-style md:text-left md:w-3/4 md:text-xl">
+          Quien mejor para desarrollar tu proyecto que la próxima generación de ingenieros de software. Los alumnos de las FAS se destacan por su compromiso social de aplicar los conocimientos aprendidos en el aula, en trabajos que puedan impulsar el desarrollo tecnológico de la región.
+        </p>
+        </div>
+        <div class="form-dibujo mt-10">
+        <figure>
+            <img src="images/dibujoDos.svg" alt="dibujoUno">
+        </figure>
+      </div>
+    </article>
+  </section>
+
+  <!-- Sección de Fundadores -->
+  <section class="my-10 px-20 xl:px-40">
+    <h2 class="mb-8 mt-16 h2-style text-center text-azulFuerte">
+      Fundadores
+    </h2>
+    <div class="md:flex md:justify-around md:flex-wrap">
+
+    <!-- Zulma -->
+    <div class="my-16 text-center rounded-lg md:w-1/3">
+      <div class="text-center">
+          <img class="w-40 h-40 rounded-lg inline-block" src="images/miriam_sanchez.jpg" alt="Zulma">
+      </div>
+      <div class="relative inline-block mx-2 p-2 shadow-lg bg-white rounded-lg -mt-2">
+      <h2 class="font-display text-vino text-xl text-center tracking-tight font-semibold uppercase md:text-lg">
+        M.C. Miriam Zulma Sánchez Hernández
+      </h2>
+      </div>
+    </div>
+
+    <!-- Maria -->
+  <div class="text-center my-16 rounded-lg md:w-1/3">
+    <div class="text-center">
+        <img class="w-40 h-40 rounded-lg inline-block" src="images/escudero.jpeg" alt="Escudero">
+    </div>
+    <div class="relative inline-block mx-2 p-2 shadow-lg bg-white rounded-lg -mt-2">
+    <h2 class="font-display text-vino text-xl text-center tracking-tight font-semibold text-red-800 uppercase md:text-lg">
+      M.I. Carlos Fabián Escudero García
+    </h2>
+    </div>
+  </div>
+
+  <!-- Vergara -->
+  <div class="text-center my-16 rounded-lg md:w-1/3">
+    <div class="text-center">
+        <img class="w-40 h-40 rounded-lg inline-block" src="images/vergara.jpeg" alt="Vergara">
+    </div>
+    <div class="relative inline-block mx-2 p-2 shadow-lg bg-white rounded-lg -mt-2">
+    <h2 class="font-display text-vino text-xl text-center tracking-tight font-semibold text-red-800 uppercase md:text-lg">
+      Dr. Héctor Javier Vergara Hernández
+    </h2>
+    </div>
+  </div>
+
+  <!-- Abel -->
+  <div class="text-center my-16 rounded-lg md:w-1/3">
+    <div class="text-center">
+        <img class="w-40 h-40 rounded-lg inline-block" src="images/abel_pintor.jpg" alt="Abel">
+    </div>
+    <div class="relative inline-block mx-2 p-2 shadow-lg bg-white rounded-lg -mt-2">
+    <h2 class="font-display text-vino text-xl text-center tracking-tight font-semibold text-red-800 uppercase md:text-lg">
+      M.C. Alberto Abel Pintor Estrada
+    </h2>
+    </div>
+  </div>
+
+  <!-- Jorge -->
+  <div class="text-center my-16 rounded-lg md:w-1/3">
+    <div class="text-center">
+        <img class="w-40 h-40 rounded-lg inline-block" src="images/jorge_sanchez.jpg" alt="Jorge">
+    </div>
+    <div class="relative inline-block mx-2 p-2 shadow-lg bg-white rounded-lg -mt-2">
+    <h2 class="font-display text-vino text-xl text-center tracking-tight font-semibold text-red-800 uppercase md:text-lg">
+      L.I. Jorge Sánchez Vega
+    </h2>
+    </div>
+  </div>
+
+  <!-- Escudero -->
+  <div class="text-center my-16 rounded-lg md:w-1/3">
+    <div class="text-center">
+        <img class="w-40 h-40 rounded-lg inline-block" src="images/maria_vega.jpg" alt="Maria">
+    </div>
+    <div class="relative inline-block mx-2 p-2 shadow-lg bg-white rounded-lg -mt-2">
+    <h2 class="font-display text-vino text-xl text-center tracking-tight font-semibold text-red-800 uppercase md:text-lg">
+      M.T.I. María Yaneth Vega Flores
+    </h2>
+    </div>
+  </div>
+</div>
+
+  <!-- Rocío -->
+  <div class="text-center my-16 rounded-lg md:w-1/3">
+    <div class="text-center">
+        <img class="w-40 h-40 rounded-lg inline-block" src="images/rocioNuevo.jpeg" alt="Rocío">
+    </div>
+    <div class="relative inline-block mx-2 p-2 shadow-lg bg-white rounded-lg -mt-2">
+    <h2 class="font-display text-vino text-xl text-center tracking-tight font-semibold text-red-800 uppercase md:text-lg">
+      L.I. Rocío Contreras Jiménez
+    </h2>
+    </div>
+  </div>
+</div>
+  </section>
+
+  <!-- MARCO DE TRABAJO -->
+  <section id="marco" class="mx-10 my-32 xl:px-40">
+    <h2 class="my-16 h2-style text-center text-azulFuerte">
+      Marco de Trabajo
+    </h2>
+    <div class="md:flex md:justify-around md:flex-wrap">
+      <!-- TARJETA 1 -->
+<div class="my-16 bg-white mt-4 p-6 shadow-lg md:w-card">
+  <figure>
+    <img class="" src="images/MarcoT2.svg" alt="Convocatoria">
+  </figure>
+  <h1 class="font-display font-bold text-4xl text-red-900 my-4">
+    1.
+  </h1>
+  <h2 class="font-display font-bold text-2xl text-red-900 my-4">
+    Vinculación
+  </h2>
+  <p class="font-body mt-4 text-lg">
+    Vincular empresas o clientes internos que necesiten algún desarrollo de software y firmar un convenio de colaboración.	 
+  </p>
+</div>
+
+<!-- TARJETA 2 -->
+<div class="my-16 bg-white mt-4 p-6 shadow-lg md:w-card">
+  <figure>
+    <img class="" src="images/MarcoT3.svg" alt="Convocatoria">
+  </figure>
+  <h1 class="font-display font-bold text-4xl text-red-900 my-4">
+    2.
+  </h1>
+  <h2 class="font-display font-bold text-2xl text-red-900 my-4">
+    Catálogo
+  </h2>
+  <p class="font-body mt-4 text-lg">
+    Construcción de catálogo de proyectos viables. 
+  </p>
+</div>
+
+<!-- TARJETA 3 -->
+<div class="my-16 bg-white mt-4 p-6 shadow-lg md:w-card">
+  <figure>
+    <img class="" src="images/MarcoT19.svg" alt="Convocatoria">
+  </figure>
+  <h1 class="font-display font-bold text-4xl text-red-900 my-4">
+    3.
+  </h1>
+  <h2 class="font-display font-bold text-2xl text-red-900 my-4">
+    Reclutamiento
+  </h2>
+  <p class="font-body mt-4 text-lg">
+    Reclutar estudiantes cada semestre que deseen participar en el proceso del desarrollo de software.
+  </p>
+</div>
+
+<!-- TARJETA 4 -->
+<div class="my-16 bg-white mt-4 p-6 shadow-lg md:w-card">
+  <figure>
+    <img class="" src="images/MarcoT20.svg" alt="Convocatoria">
+  </figure>
+  <h1 class="font-display font-bold text-4xl text-red-900 my-4">
+    4.
+  </h1>
+  <h2 class="font-display font-bold text-2xl text-red-900 my-4">
+    Desarrollo
+  </h2>
+  <p class="font-body mt-4 text-lg">
+    Asignación de proyecto y profesor responsable a los equipos, así como la planeación y calendarización de actividades.
+  </p>
+</div>
+
+<!-- TARJETA 5 -->
+<div class="my-16 bg-white mt-4 p-6 shadow-lg md:w-card">
+  <figure>
+    <img class="" src="images/MarcoT21.svg" alt="Convocatoria">
+  </figure>
+  <h1 class="font-display font-bold text-4xl text-red-900 my-4">
+    5.
+  </h1>
+  <h2 class="font-display font-bold text-2xl text-red-900 my-4">
+    Entrega
+  </h2>
+  <p class="font-body mt-4 text-lg">
+    Entrega del software desarrollado y su documentación.
+  </p>
+</div>
+
+<!-- TARJETA 6 -->
+<div class="my-16 bg-white mt-4 p-6 shadow-lg md:w-card">
+  <figure>
+    <img class="" src="images/MarcoT22.svg" alt="Convocatoria">
+  </figure>
+  <h1 class="font-display font-bold text-4xl text-red-900 my-4">
+    6.
+  </h1>
+  <h2 class="font-display font-bold text-2xl text-red-900 my-4">
+    Reconocimiento
+  </h2>
+  <p class="font-body mt-4 text-lg">
+    Entrega de constancia como desarrolladores del software firmado por la empresa al equipo dessarrollador.
+  </p>
+</div>
+  </div>
+  </section>
+
+  <!-- CASOS DE ÉXITO -->
+  <section id="exito" class="mx-10 mt-32 mb-40 xl:px-40">
+    
+    <section class="section slider">
+      <h2 class="h2-style text-center text-azulFuerte">
+        Casos de éxito
+      </h2>
+      <div class="section__entry section__entry--center">
+      </div>
+  
+      <input type="radio" name="slider" id="slide-1" class="slider__radio">
+      <input type="radio" name="slider" id="slide-2" class="slider__radio">
+      <input type="radio" name="slider" id="slide-3" class="slider__radio" checked>
+      <input type="radio" name="slider" id="slide-4" class="slider__radio">
+      <input type="radio" name="slider" id="slide-5" class="slider__radio">
+      
+      <div class="slider__holder">
+        
+        <label for="slide-1" class="slider__item slider__item--1 card">
+          <div class="slider__item-content">
+            <p class="titulo-empresa">Universidad Marista Valladolid campus Morelia </p>
+            <p class="font-display"> <strong class="font-display font-bold">Profesor encargado:</strong> M.G.T.I María Yaneth Vega Flores</p>
+            <p class="font-display"> <strong class="font-display font-bold">Alumnos:</strong> Ayala Sánchez Juan Antonio, Camarena Vieyra Alberto, 
+              García Sánchez Gustavo, Martínez Paniagua Juan José, Mendoza Chávez Gerardo
+            </p>
+            <p class="slider__item-text font-body text-lg">Elaboración de una plataforma web para la gestión de una Clínica de Fisioterapia 
+              y Rehabilitación.</p>
+            <div class="text-center">
+              <img class="inline-block w-72 h-20" src="images/marista.png" alt="">
+            </div>  
+          </div>
+        </label> <!-- Slider__item -->
+  
+        <label for="slide-2" class="slider__item slider__item--2 card">
+          <div class="slider__item-content">
+            <p class="titulo-empresa">Hielos Laurita</p>
+            <p class="font-display"> <strong class="font-display font-bold">Profesor encargado:</strong> I.S.C. Alejandro Amaro Flores</p>
+            <p class="font-display"> <strong class="font-display font-bold">Alumnos:</strong> Almazan Boiso Hugo Erick, Arroyo Aleman Daniel,
+              Blas Terrazas Manuel Fernando, Duran Garcia Yareli Yazmin
+            </p>
+            <p class="slider__item-text font-body text-lg">Análisis y mejoras a la aplicación de Hielos Laurita</p>
+            <div class="text-center">
+              <img class="inline-block w-64 h-24" src="images/hielosLaurita.jpg" alt="">
+            </div>
+          </div>
+        </label> <!-- Slider__item -->
+  
+        <label for="slide-3" class="slider__item slider__item--3 card">
+          <div class="slider__item-content">
+            <p class="titulo-empresa">SEDEAM</p>
+            <p class="font-display"> <strong class="font-display font-bold">Profesor encargado:</strong> M.C. Miriam Zulma Sánchez Hernández</p>
+            <p class="font-display"> <strong class="font-display font-bold">Alumnos:</strong> Carlos Alexis Cedeño Martínez, Ingrid Shindell Huazano Medina, 
+              José Antonio Cortés Hernández, Marco Jesús Lara Silva, Eridani Pérez Mendoza
+            <p class="slider__item-text font-body text-lg">Elaboración de una plataforma web para el control 
+              y seguimiento de proyectos.</p>
+            <div class="text-center">
+              <img class="inline-block w-72 h-24" src="images/sedeam.png" alt="">
+            </div>  
+          </div>
+        </label> <!-- Slider__item -->
+  
+        <label for="slide-4" class="slider__item slider__item--4 card">
+          <div class="slider__item-content">
+            <p class="titulo-empresa">Universidad Marista Valladolid campus Morelia</p>
+            <p class="font-display"> <strong class="font-display font-bold">Profesor encargado:</strong> M.C. Abel Alberto Pintor Estrada</p>
+            <p class="font-display"> <strong class="font-display font-bold">Alumnos:</strong> Bautista Rendon Luis Antonio, Garcia Barajas Alejandro, 
+              Herrera Ramirez Alexis, Ibarra Luz Raul Eduardo, Lopez Becerra Samuel Alejandro, Martinez Aguilar Diego Ulises, 
+              Nakamura Ramirez Gerardo Takeshi
+            <p class="slider__item-text font-body text-lg">Elaboración de un sistema de control escolar</p>
+            <div class="text-center">
+              <img class="inline-block w-72 h-20" src="images/marista.png" alt="">
+            </div>
+          </div>
+        </label> <!-- Slider__item -->
+  
+        <label for="slide-5" class="slider__item slider__item--5 card">
+          <div class="slider__item-content">
+            <p class="titulo-empresa">División de Estudios de Posgrado e Investigación (DEPI)</p>
+            <p class="font-display"> <strong class="font-display font-bold">Profesor encargado:</strong> L.I. Jorge Sánchez Vega</p>
+            <p class="font-display"> <strong class="font-display font-bold">Alumnos:</strong> Andrés López Sierra, Daniel Aguilar Barrios, 
+              Jennifer Melissa Dimas Salas, Luis Eduardo Pérez Monzalvo, Daniel Isaac Morales Ruiz, Javier Ulises López Fernández
+            <p class="slider__item-text font-body text-lg">Creación e implementación de una plataforma web para la 
+              División de Estudios de Posgrado e Investigación (DEPI) del Instituto Tecnológico de Morelia. </p>
+            <div class="text-center">
+              <img class="inline-block w-24 h-24" src="images/logoITM.png" alt="">
+            </div>
+          </div>
+        </label> <!-- Slider__item -->
+
+  
+      </div> <!-- Slider Holder -->
+  
+  
+  
+    </section> <!-- Section Slider -->
+  </section>
+
+  <!-- EXPERIENCIAS -->
+  
+  <section>
+    <h2 class="my-16 h2-style text-center text-azulFuerte">
+      Testimonios
+    </h2>
+    <div class="transform translate-x-1/2 translate-y-1/2">
+    <div id="testimonials">
+      <ul>
+          <li>
+              <p class="testimonial-body text-gris">Creo que la FAS me ha ayudado mucho a forjar mi carácter, ya que vivimos experiencias
+                a las que nunca antes nos habiamos enfrentado, trabajar un proyecto escolar no se compara con trabajar con un
+                cliente real con expectativas y problemáticas reales, dónde nuestro trabajo tiene un real impacto. Aprendemos a
+                comprometernos, escuchar, negociar y a trabajar en equipo, ya que cada experiencia es un paso más a la vida real.
+              </p>
+              <div class="testimonial-profile">
+                  <div class="img-cover"></div>
+                  <svg><circle></svg>
+                  <img src="images/karen.PNG" alt="Karen">
+                  <span>Karen Daniela Olivo Osorio</span>
+                  <br><small data-social="facebook">8º semestre, ISC</small>
+              </div>
+          </li><li>
+              <p class="testimonial-body text-gris">En mi experiencia, me permitió aprender del manejo de metodologías y practicar con clientes
+                reales, además de la organización de los roles en los equipos. Cuando comencé mis residencias en Volkswagen de Puebla, 
+                me permitió tener una buena organización y manejo de tiempos, así como conocer las responsabilidades en los proyectos 
+                y la forma de generar ideas. Tres meses antes de terminar mi periodo de residencias la empresa me ofreció una oferta
+                laboral y 15 días para terminar mi proceso de cierre de la institución educativa.
+
+              </p>
+              <div class="testimonial-profile">
+                  <div class="img-cover"></div>
+                  <svg><circle></svg>
+                  <img src="images/emilio.PNG" alt="Emilio">
+                  <span>Emilio Abisay Damas Rojas</span>
+                  <br><small data-social="twitter">ISC egresado, Volkswagen México</small>
+              </div>
+          </li><li>
+              <p class="testimonial-body text-gris">Gracias a la FAS pude descubrir con prontitud muchas buenas prácticas de la experiencia laboral
+                del Ingeniero en TI. Cuando trabajas con el cliente, una persona que esta confiando en tus habilidades, y que se apoya en
+                ti para generar un producto que beneficiará a ambos, inevitablemente se genera un extraordinario proceso de GANAR-GANAR, y 
+                gane habilidades que me permitieron salir de mi país para poder explotarlas en otro. En Perú, mi CEO me llevaba a las 
+                reuniones con empresas como E-Fact y La Nuestra, y nos reuníamos para hablar las monetizaciones de los proyectos, tiempos, 
+                entregas, etc. Nada que yo no haya experimentado ya en la FAS.
+              </p>
+              <div class="testimonial-profile">
+                  <div class="img-cover"></div>
+                  <svg><circle></svg>
+                  <img src="images/berenice.jpg" alt="Berenice">
+                  <span>Berenice Villafuerte Zavala</span>
+                  <br><small data-social="google">9º semestre, ITIC</small>
+              </div>
+          </li><li>
+              <p class="testimonial-body text-gris">Mi experiencia comenzó con ideas relatadas por profesores del área de Ingeniería de Software, relatos
+                que transmitían una labor totalmente diferente en el campo laboral al del campo escolar, principalmente por la magnitud de los
+                proyectos y aún más importante, el trato con los clientes. Dejando esto último como una de las experiencias más satisfactorias y 
+                a la vez frustrantes, porque nunca imaginé que existieran metodologías completas para tratar de entender ideas de otras personas 
+                (los clientes) y aún así fallar al momento de interpretarlas. La Fábrica Académica de Software nos brinda eso y mucho 
+                más, un campo realista de estudio y experiencias nuevas con cada proyecto y profesor que nos llevan de la mano en dichas tareas.
+              </p>
+              <div class="testimonial-profile">
+                  <div class="img-cover"></div>
+                  <svg><circle></svg>
+                  <img src="images/alexis.PNG" alt="Alexis">
+                  <span>Alexis Herrera Ramirez</span>
+                  <br><small data-social="facebook">9º semestre, ISC (Ingeniería de Software y Desarrollo Móvil)</small>
+              </div>
+          </li>
+      </ul>
+  </div>
+</div>
+  </section>
+
+  <!-- FOTOS -->
+  <section class="mx-10 mt-56 mb-48 xl:px-40">
+    <h2 class="my-16 h2-style text-center text-azulFuerte">
+      Imágenes
+    </h2>
+    <div class="text-center">
+      <i class="md:w-180 md:h-120">
+        <input class="input-img" checked type="radio" name="s" style="background-image: url('images/prom1.jpg');">
+        <input class="input-img" type="radio" name="s" style="background-image: url('images/prom2.jpg');" title>
+        <input class="input-img" type="radio" name="s" style="background-image: url('images/prom3.jpg');" title>
+        <input class="input-img" type="radio" name="s" style="background-image: url('images/prom4.jpg');" title>
+        <input class="input-img" type="radio" name="s" style="background-image: url('images/prom5.jpg');" title>
+      </i>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="xl:px-40 md:flex justify-between">
+    <div class="mx-10 md:pt-24">
+      
+      <h2 class="h2-style text-azulFuerte">
+        Trabajemos juntos
+      </h2>
+    
+    
+      <p class="font-body">
+        Nosotros desarrollamos tu proyecto, y tu provees de experiencia a nuestros alumnos. Contáctanos ya.
+      </p>
+      
+    </div>
+    <div class="md:w-3/5 m-10 bg-white p-5 rounded-lg shadow-lg">
+      <form id="contact-form" class="contact" name="contact-form" method="post" action="enviar.php">
+        <div class="p-4">
+          <h3 class="font-body font-bold text-azulFuerte">Nombre</h3>
+          <input class="w-full leading-snug text-gray-800 pb-1 px-4 rounded border border-blue-200 bg-gray-100 placeholder-gray-500 hover:bg-white focus:outline-none focus:shadow-outline" type="text" name="nombre" required="required" placeholder="Nombre">
+        </div>
+        <div class="p-4">
+          <h3 class="font-body font-bold text-azulFuerte">Email</h3>
+          <input class="w-full leading-snug text-gray-800 py-1 px-4 rounded border border-blue-200 bg-gray-100 placeholder-gray-500 hover:bg-white focus:outline-none focus:shadow-outline" type="email" name="email" required="required" placeholder="Email">
+        </div>
+        <div class="p-4">
+          <h3 class="font-body font-bold text-azulFuerte">Mensaje</h3>
+          <textarea class="w-full leading-snug text-gray-800 py-1 px-4 rounded border border-blue-200 bg-gray-100 placeholder-gray-500 hover:bg-white focus:outline-none focus:shadow-outline" name="mensaje" required="required" placeholder="Cuéntanos de tu proyecto" cols="30" rows="10"></textarea>
+        </div>
+        <div class="p-4">
+          <button type="submit" class="font-title tracking-tight font-bold w-2/5 rounded shadow-lg py-1 px-4 bg-yellow-400 mx-auto block hover:shadow-none hover:bg-azulFuerte hover:text-white">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!--Aqui empieza el footer-->
+  <footer class="mt-10 text-white w-full bg-azulFuerte">
+  <div class="md:flex md:flex-row-reverse justify-between md:mx-40">
+    <div class="mt-4 ml-8">
+      <a target="_blank" href="https://www.facebook.com/F%C3%A1brica-Acad%C3%A9mica-de-Software-108281660913582">
+        <img src="images/facebook.svg" alt="face" width="50" height="50">
+      </a>
+
+    </div>
+    <ul class="mt-4 mb-4 ml-8 md:list-disc">
+      <li class="font-title font-bold tracking-tight">Dir: Avenida Tecnológico 1500, 58120 Morelia, Mich.</li>
+      <li class="font-title font-bold tracking-tight">Tel: 443-312-1570</li>
+    </ul>
+  </div>
+
+  </footer>
+</body>
+</html>
